@@ -1,0 +1,94 @@
+/* BlogDetail.css */
+
+.blog-detail-nav {
+  background-color: #2BA5D1;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Align items to the start and end */
+  align-items: center;
+}
+
+.blog-icon {
+  width: 180px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+.blog-detail-nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: auto; /* Push the link to the right */
+}
+
+.blog-detail-container {
+  margin: 20px;
+}
+
+.blog-detail-background-shodow {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.container-blogdetail {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title-blog {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blogdata-image {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.blog-content {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.blog-icons {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.blog-detail-like,
+.blog-detail-comment {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.like-count {
+  margin-right: 20px;
+}
+
+.success-msg {
+  color: green;
+  margin-top: 10px;
+}
+
+.blogdetail-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.voice-icon{
+  width: 25px;
+  cursor:pointer;
+}
+
+.loading {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}

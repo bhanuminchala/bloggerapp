@@ -1,0 +1,120 @@
+/* OtpVerify.css */
+
+.navbar-Otp-Verify {
+  background-color: #2BA5D1;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky !important;
+}
+
+.otpverify-blog-icon {
+  width: 200px;
+  height: 40px;
+}
+
+.navbar-Otp-Verify a {
+  color: white;
+  text-decoration: none;
+  transition: border-color 0.3s, color 0.3s; /* Transition for a smooth effect */
+}
+
+.navbar-Otp-Verify a:hover {
+  color: black;
+  border-color: #2BA5D1; /* Change border color on hover */
+}
+
+.Otp-Verify {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.otp-h1 {
+  color: #2BA5D1;
+  font-size: 24px;
+}
+
+.label-otp {
+  padding-right: 220px;
+  font-size: 16px;
+  color: #333;
+  padding-top: 40px;
+}
+
+.otp-input {
+  width: 200px;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 50px;
+}
+.otp-button-again {
+  width: 100px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 100px;
+  color: #2BA5D1;
+  cursor: pointer;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+.otp-button {
+  margin-top: 20px;
+  padding: 12px 14px;
+  background-color: #2BA5D1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.container-Otp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container-Otp {
+  padding-bottom: 50px;
+  width: 500px;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .otp-h1 {
+    color: #2BA5D1;
+    font-size: 24px;
+    margin-bottom: 10%;
+  }
+  .expiration-time{
+    margin: 0;
+  }
+  .otp-input {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 70px;
+  }
+ 
+
+
+}

@@ -1,0 +1,89 @@
+/* EmailVerify.css */
+
+.container2-emailverify {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .navbar-emailverify {
+    background-color: #2BA5D1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky !important;
+  }
+  
+  .emailverify-blog-icon {
+    width: 200px;
+    height: 40px;
+  }
+  
+  .navbar-emailverify a {
+    color: white;
+    text-decoration: none;
+    transition: border-color 0.3s, color 0.3s; /* Transition for smooth effect */
+  }
+  
+  .navbar-emailverify a:hover {
+    color: black;
+    border-color: #2BA5D1; /* Change border color on hover */
+  }
+  
+  .emailverify-label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .emailverify-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .emailverify-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    margin-left: 100px;
+  }
+  
+  .emailverify-button:hover {
+    background-color: #0056b3;
+  }
+
+  .container-email-verify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container-email-verify {
+    padding-bottom: 50px;
+    width: 500px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .emailverify-button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+      width: 150px;
+      margin-left: 100px;
+    }
+
+
+  }
